@@ -17,3 +17,7 @@ What are some situations when branches would be helpful in keeping your history 
 How do the diagrams help you visualize the branch structure?
 
 	The diagrams make it easier to understand the parent/child relationships of all of the different commits over all of the different branches.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	The code from both of the branches combines into a new master commit, and the id for the non-master branch can be deleted. The diagram shows that the commits from the merged branches still refer to their original parents, while the commit from the merge has two parent commits.
