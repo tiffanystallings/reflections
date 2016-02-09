@@ -21,3 +21,7 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 	The code from both of the branches combines into a new master commit, and the id for the non-master branch can be deleted. The diagram shows that the commits from the merged branches still refer to their original parents, while the commit from the merge has two parent commits.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Git's automatic merging makes combining files in a collaboration extremely easy, though some conflicts are likely to occur. Manual merging offers a lot of control, but it can be time consuming and tedious -- especially over larger code.
